@@ -18,8 +18,12 @@ def list_songs(library)
 end
 #list_songs(artists)
 
-def delete_artist(library, artist)
-  library.
+def delete_artist(library, artists)
+  puts artists
+  puts "What artist do you want to delete?"
+  user_music = gets.chomp 
+  
+  
   
   
 
