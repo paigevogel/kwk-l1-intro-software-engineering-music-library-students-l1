@@ -24,7 +24,7 @@ def delete_artist(library, artists)
   user_music = gets.chomp 
   artists.delete(user_music)
 end
-delete_artist(library, artists)
+delete_artist
   
 
 
