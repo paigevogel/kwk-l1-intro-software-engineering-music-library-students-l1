@@ -21,7 +21,7 @@ end
 def delete_artist
   puts  "'The Beatles' => 'Yellow Submarine',
     'Led Zeppelin' => 'Good Times Bad Times',
-    'The Rolling Stones' => 'Paint it Black'
+    'The Rolling Stones' => 'Paint it Black'"
     
   puts "What artist do you want to delete?"
   user_music = gets.chomp 
