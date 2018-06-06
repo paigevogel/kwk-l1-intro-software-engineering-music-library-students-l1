@@ -22,9 +22,9 @@ def delete_artist(library, artists)
   puts artists
   puts "What artist do you want to delete?"
   user_music = gets.chomp 
-  
-  
-  
+  artists.delete(user_music)
+end
+delete_artist(library, artists)
   
 
 
