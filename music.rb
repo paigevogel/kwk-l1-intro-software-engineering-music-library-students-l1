@@ -19,7 +19,10 @@ end
 #list_songs(artists)
 
 def delete_artist
-  puts artists
+  puts  "'The Beatles' => 'Yellow Submarine',
+    'Led Zeppelin' => 'Good Times Bad Times',
+    'The Rolling Stones' => 'Paint it Black'
+    
   puts "What artist do you want to delete?"
   user_music = gets.chomp 
   artists.delete(user_music)
